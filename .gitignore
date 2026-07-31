@@ -1,3 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 .vscode
+
+# Build artifacts
+dist/
+*.zip
+.version
+.DS_Store
