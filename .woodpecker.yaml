@@ -6,9 +6,8 @@ steps:
       - make ci-version
 
   - name: build
-    image: barichello/godot-ci:4.7.1
+    image: git.teletypegames.org/internal/godot-builder:4.7.1
     commands:
-      - apt-get update && apt-get install -y --no-install-recommends make zip
       - make ci-export
 
   - name: artifact

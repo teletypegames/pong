@@ -15,7 +15,7 @@ point for the opponent.
 
 ## Development
 
-The project uses the [godot-tools](https://git.teletype.hu/tools/godot-tools)
+The project uses the [godot-tools](https://git.teletypegames.org/tools/godot-tools)
 templates: build logic lives in the `Makefile`, the web export
 configuration in `export_presets.cfg` (the `Web` preset, threads
 disabled).
