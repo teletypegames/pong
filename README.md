@@ -36,8 +36,8 @@ VS Code tasks.
 ## CI/CD
 
 Woodpecker builds every push (`.woodpecker.yaml`): version → headless
-web export (`barichello/godot-ci` image) → upload to the droparea →
-`/update?platform=godot` on teletypegames.org. The version comes from
+web export (`barichello/godot-ci` image) → upload via `/build/upload` →
+`/build/publish?platform=godot` on teletypegames.org. The version comes from
 `metadata.json` (non-main branches get a `dev-` prefix). Keep the
 `barichello/godot-ci` image tag in sync with the Godot version the
 project is edited with.
