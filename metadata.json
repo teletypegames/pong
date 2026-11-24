@@ -3,8 +3,8 @@
   "title": "Pong",
   "author": "Teletype Games",
   "desc": "The classic two-player Pong, made in Godot.",
-  "site": "https://git.teletypegames.org/games/pong",
-  "repo": "https://git.teletypegames.org/games/pong",
+  "site": "https://git.teletypegames.org/demos/pong",
+  "repo": "https://git.teletypegames.org/demos/pong",
   "license": "MIT License",
   "version": "0.1.0"
 }
