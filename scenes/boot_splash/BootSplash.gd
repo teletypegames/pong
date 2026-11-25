@@ -1,6 +1,8 @@
+# The boot splash: the Teletype Games title grows, then the main menu opens.
 extends Node2D
 
 
+# Grows the title over two seconds, waits a moment and opens the main menu.
 func _ready():
 	var base_font_size = 20
 	for i in range(100):
